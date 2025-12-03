@@ -1,0 +1,87 @@
+@import "mocha.css";
+
+* {
+    font-family: "MesloLGS Nerd Font Mono Bold";
+    font-size: 15px;
+    min-height: 0;
+    font-weight: bold;
+}
+
+window#waybar {
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+#window {
+margin: 0px;
+padding-left: 8px;
+padding-right: 8px;
+color: #FFFFFF;
+}
+
+#workspaces button{
+background-color: rgba(143, 60, 103, 0.0);
+color: #b7b5c7;
+border-radius: 10px;
+padding: 0 3px;
+margin: 0 2px;
+}
+
+#workspaces button:hover{
+background-color: transparent;
+box-shadow: none;
+outline: none;
+color: #b7b5c7;
+border-radius: 10px;
+padding: 0 3px;
+margin: 0 2px;
+}
+
+#workspaces button.active,
+#workspaces button.focused {
+}
+
+#workspaces button.active label,
+#workspaces button.focused label{
+font-size: 20px;
+}
+#workspaces button.urgent {
+background-color: #eb4d4b;
+color: #000000;
+}
+
+#pulseaudio,
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#wireplumber,
+#tray,
+#network,
+#mode,
+#window,
+#idle_inhibitor,
+#custom-vpn,
+#custom-time,
+#custom-date,
+#custom-gpu,
+#custom-network,
+#custom-power{
+background-color: rgba(143, 60, 103, 0);
+color: #b7b5c7;
+margin: 4px;
+padding: 4px 1px;
+border-radius: 15px;
+}
+
+#window.empty {
+    background-color: transparent;
+}
+
+#tray{
+background-color: rgba(1, 1, 1, 0);
+color: #b7b5c7;
+}
